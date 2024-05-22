@@ -2,11 +2,10 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import CommonButton from "./common/commonButton";
-import NavLogo from "../../assets/logo/PNG/navLogo.png";
+import CommonButton from "../common/commonButton";
+import NavLogo from "../../../assets/logo/PNG/navLogo.png";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import CommonNavBarItem from "./common/commonNavBarItem";
+import CommonNavBarItem from "../common/commonNavBarItem";
 
 class Header extends Component {
   render() {
@@ -27,7 +26,7 @@ class Header extends Component {
                   width="160"
                   height="60"
                   className="d-inline-block align-top"
-                />{" "}
+                />
               </Navbar.Brand>
               <Navbar.Toggle
                 aria-controls={`offcanvasNavbar-expand-${expand}`}

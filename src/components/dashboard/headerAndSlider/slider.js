@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-import "./style.css";
-import imageOne from "../../assets/slider/JPG/slider1.jpg";
-import imageTwo from "../../assets/slider/JPG/slider2.jpg";
+import "../style.css";
+import imageOne from "../../../assets/slider/JPG/slider1.jpg";
+import imageTwo from "../../../assets/slider/JPG/slider2.jpg";
 import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
-import CommonCarouselItem from "./common/commonCarouselItem";
+import CommonCarouselItem from "../common/commonCarouselItem";
 
 class Slider extends Component {
   constructor(props) {

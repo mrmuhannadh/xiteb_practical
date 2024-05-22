@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Header from "../components/dashboard/header";
-import Slider from "../components/dashboard/slider";
+import Header from "../components/dashboard/headerAndSlider/header";
+import WelcomeSection from "../components/dashboard/welcomeSection/welcomeSection";
+import Slider from "../components/dashboard/headerAndSlider/slider";
 
 class DashboardPage extends Component {
   render() {
@@ -8,6 +9,7 @@ class DashboardPage extends Component {
       <div>
         <Header />
         <Slider />
+        <WelcomeSection />
       </div>
     );
   }

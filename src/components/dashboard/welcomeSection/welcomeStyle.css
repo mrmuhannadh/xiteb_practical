@@ -1,0 +1,154 @@
+/* Welcome Section */
+
+.welcomeSectionMainBox{
+  margin-top: 5vh;
+  max-width: 100vw;
+}
+
+.imageSection{
+  position: relative;
+}
+
+.imageOneDiv{
+  position: absolute;
+  padding-top: 5%;
+  left: 20%;
+}
+
+.imageOne{
+  max-width: 70%;
+  max-height: 70%;
+}
+.imageTwoDiv{
+  width: 50%;
+  position: absolute;
+  padding-top: 40%;
+}
+
+.imageTwo{
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.triRecShape{
+  position: absolute;
+  margin-top: 500px;
+  display: block;
+}
+
+/* Text Section */
+
+.textSection{
+  position: relative;
+}
+
+.textSection .content{
+  background-color:rgb(red, green, blue);
+  backdrop-filter: blur(1px);
+  z-index: 1;
+  text-align: start;
+  padding: 15%;
+  width: 100%;
+  height: 100%;
+}
+
+.textSection .content .topic{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.textSection .content .subPara{
+  font-size: 0.9rem;
+  color: #747474;
+}
+
+.textSection .content .topic span{
+  color: rgb(255, 124, 70);
+}
+
+/* TriRectangle Shpae */
+.talk-bubble {
+  margin-top: 55%;
+  margin-left: 55%;
+  display: inline-block;
+  position: relative;
+	max-width: 200px;
+	height: auto;
+	background-color: rgb(255, 124, 70);
+  color: white;
+}
+.border{
+  border: 8px solid rgb(255, 124, 70);
+}
+
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: rgb(255, 124, 70) transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: rgb(255, 124, 70) transparent transparent transparent;
+}
+
+.talktext{
+  min-height: 90px;
+  min-width: 150px;
+}
+
+.clientAmount{
+  padding-top: 5%;
+  font-size: 2rem;
+}
+
+/* Parallelogram */
+.parallelogram {
+	width: 50px;
+	height: 100px;
+	transform: skewY(40deg) ;
+	background: rgb(2, 75, 89);
+  position: relative;
+  display: block;
+}
+
+.imageTwoDiv .parallelogramContainer{
+  position: absolute;
+  margin-left: 10%;
+  top: 70%;
+}
+
+.textSection .parallelogramContainer{
+  position: absolute;
+  margin: 10%;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+/* Triangle Shape */
+.triangleShape{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid rgb(255, 124, 70);
+  border-right: 50px solid transparent;
+}
+
+.triangleShapeContainer{
+  position: absolute;
+  margin-left: 10%;
+  top: 88%;
+}

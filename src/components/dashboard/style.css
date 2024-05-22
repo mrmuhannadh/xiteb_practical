@@ -35,6 +35,7 @@
   display: flex;
   align-items: center;
   height: 100%;
+  text-align: start;
 }
 
 .carouselImage {
@@ -58,7 +59,7 @@
   bottom: 0;
   left: 0;
   width: 220px;
-  height: 80px;
+  height: 12vh;
   z-index: 3;
 }
 
@@ -78,5 +79,26 @@
   background-color: rgb(255, 255, 255);
   height: 70vh;
   z-index: 2;
-  padding: 20px;
+}
+
+.topContent{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+
+.contentHeading{
+  font-weight: bold;
+  font-size: small;
+  font-family: "Roboto Mono";
+}
+
+.subHeading{
+  font-family: "Roboto";
+  font-size: 3rem;
+}
+
+.subHeadingHighlight{
+  font-weight: bold;
+  color: rgb(249, 191, 4);
 }
