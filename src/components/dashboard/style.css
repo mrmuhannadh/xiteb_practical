@@ -1,0 +1,82 @@
+/* Slider Styles */
+
+.sliderRow{
+  position: relative;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sliderCol {
+  flex: 1;
+}
+
+.verticalTextCol{
+  writing-mode: vertical-rl; 
+  position: relative;
+  top: 50%;
+  font-weight: bold;
+  transform: rotateZ(180deg);
+  margin-right: 10px; 
+}
+
+.sliderContainer{
+  min-height: 85vh;
+}
+
+
+.carouselCustom {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselItemWrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.carouselImage {
+  flex: 1;
+  position: relative;
+}
+
+.sliderImage {
+  width: 100%;
+  min-height: 85vh;
+  max-height: 85vh;
+  object-fit: cover;
+}
+
+/* Carousel Controller */
+
+.sliderController{
+  background-color: rgb(249, 191, 4);
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  width: 220px;
+  height: 80px;
+  z-index: 3;
+}
+
+.countBox{
+  color: white;
+}
+
+.countBoxValue{
+  padding: 0 10px;
+}
+
+/* Carousel Box */
+
+.carouselCaption {
+  left: 7%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  z-index: 2;
+  padding: 20px;
+}

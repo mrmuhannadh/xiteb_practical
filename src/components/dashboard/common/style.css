@@ -1,3 +1,4 @@
+/* Common Button Styles */
 .commonButton{
   display: flex;
   align-items: center;
@@ -9,10 +10,27 @@
   font-weight: bold;
 }
 
+
+/*Common Nav Item Styles*/
 .navItems{
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.verticleLine{
+  min-width: 5px; 
+  height: 25px;
+  color: rgb(249, 191, 4);
+}
+
+.custom-dropdown .dropdown-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  margin-left: 10px; 
 }
