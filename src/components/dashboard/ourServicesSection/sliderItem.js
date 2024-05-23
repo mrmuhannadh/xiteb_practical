@@ -11,7 +11,7 @@ class SliderItem extends Component {
           <div className="col-md-6 ">
             <Card.Img variant="top" src={image} className="sliderImageC" />
           </div>
-          <div className="col-md-5 sliderCardTextContainer">
+          <div className="col-md-5 sliderCardTextContainer m-1">
             <Card.Text>
               <span className="sliderItemHeading">{topicText}</span>
               <p className="sliderItemBody">{bodyText}</p>

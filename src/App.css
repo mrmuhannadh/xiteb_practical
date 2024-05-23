@@ -37,6 +37,120 @@
   }
 }
 
-.ccc{
-  background-color: red;
+/* Footer */
+
+.footerContainer{
+  background-color: rgb(93, 108, 131);
+  color: white;
+  text-align: start;
+  padding: 5vh 10vw 5vh 10vw;
+}
+
+.footerTextBox{
+  height: 50px;
+  width: 400px;
+  margin-right: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.customButtonCustomClass{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: rgb(240, 156, 15);
+  border-radius: 5px;
+}
+
+.topRow{
+  padding-bottom: 25vh;
+}
+
+.footerTopic{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.underlineHR{
+  width: 55px;
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(240, 156, 15);
+  margin-bottom: 8vh;
+}
+
+.footerContent p, .footerContent div,  .footerContent ul{
+  font-size: small;
+  color: #d5d6d6;
+}
+
+.footerContent ul{
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+
+.footerContent ul li{
+  padding-left: 25px;
+  padding-bottom: 2vh;
+  padding-top: 5px;
+  background-image: url('./assets/handIcon.png');
+  background-size: 16px 16px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.footerRightIcon{
+  color: rgb(240, 156, 15);
+  margin-right: 10px;
+}
+
+.gridItems{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+
+.gridImage{
+  width: 75px;
+  height: 75px;
+  object-fit: fill;
+
+}
+
+.roundedIcon {
+  display: flex;
+  background-color: rgb(138, 142, 148);
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.bottomRow{
+  padding-top: 10vh;
+}
+/* Move Up Button */
+
+.moveUpButton{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 4vw;
+  bottom: 10vh;
+  color: white;
+  background-color: rgb(240, 156, 15);
+  z-index: 100;
+  
 }

@@ -8,6 +8,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 import TestmonialsSection from "../components/dashboard/testimonials/testimonialsSection";
 import ClientLogoSection from "../components/dashboard/clientLogoSection/clientLogoSection";
 import NewsSection from "../components/dashboard/newsSection/newsSection";
+import Footer from "../components/dashboard/common/footer";
+import MoveUpButton from "../components/dashboard/common/moveUpScreenButton";
 
 class DashboardPage extends Component {
   render() {
@@ -27,10 +29,14 @@ class DashboardPage extends Component {
         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
           <TestmonialsSection />
         </ScrollAnimation>
-        {/* <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut"> */}
-        <ClientLogoSection />
-        {/* </ScrollAnimation> */}
-        <NewsSection />
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ClientLogoSection />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <NewsSection />
+        </ScrollAnimation>
+        <Footer />
+        <MoveUpButton />
       </div>
     );
   }

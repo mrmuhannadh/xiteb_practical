@@ -12,7 +12,7 @@ function SliderComponent() {
     slidesToShow: 2,
     slidesToScroll: 2,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 10000,
     appendDots: (dots) => (
       <div className="">
         <ul

@@ -11,8 +11,8 @@ function NewsSection() {
     {
       image: imageOne,
       topic: "News 1",
-      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-      user: "admin",
+      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      user: "Admin",
       comments: "15",
       alt: "imageone",
       background: "rgb(0,192,228)",
@@ -23,38 +23,41 @@ function NewsSection() {
     {
       image: imageTwo,
       topic: "News 2",
-      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-      user: "admin",
+      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      user: "Admin",
       comments: "13",
       alt: "imagetwo",
-      background: "#fff",
+      background: "rgb(245,245,245)",
       fontColor: "#000",
       date: "25",
       dateBg: "rgb(63,78,88)",
+      iconColor: "rgb(0,192,228)",
     },
     {
       image: imageThree,
       topic: "News 3",
-      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-      user: "admin",
+      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      user: "Admin",
       comments: "10",
       alt: "imagethree",
-      background: "#fff",
+      background: "rgb(245,245,245)",
       fontColor: "#000",
       date: "25",
       dateBg: "rgb(63,78,88)",
+      iconColor: "rgb(0,192,228)",
     },
     {
       image: imageFour,
       topic: "News 2",
-      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+      body: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
       user: "user",
       comments: "11",
       alt: "imagef",
-      background: "#fff",
+      background: "rgb(245,245,245)",
       fontColor: "#000",
       date: "25",
       dateBg: "rgb(63,78,88)",
+      iconColor: "rgb(0,192,228)",
     },
   ];
   return (
@@ -70,7 +73,7 @@ function NewsSection() {
               <div className="col-md-6">
                 <NewsCard
                   image={news.image}
-                  topicText={news.topicText}
+                  topicText={news.topic}
                   news={news.body}
                   user={news.user}
                   commentsCount={news.comments}
@@ -79,6 +82,7 @@ function NewsSection() {
                   backgroundColor={news.background}
                   fontColor={news.fontColor}
                   dateBgColor={news.dateBg}
+                  iconColor={news.iconColor}
                 />
               </div>
             );

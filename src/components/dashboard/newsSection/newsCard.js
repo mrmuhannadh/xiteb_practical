@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { ChatText } from "react-bootstrap-icons";
+import { ChatText, Wechat } from "react-bootstrap-icons";
 import "./style.css";
 
 function NewsCard({
@@ -14,6 +14,7 @@ function NewsCard({
   backgroundColor,
   fontColor,
   dateBgColor,
+  iconColor,
 }) {
   const cardStyle = {
     backgroundColor: backgroundColor,
@@ -44,7 +45,7 @@ function NewsCard({
           />
         </div>
 
-        <div className="col-md-5 sliderCardTextContainer">
+        <div className="col-md-5 sliderCardTextContainer p-4">
           <Card.Text>
             <p className="sliderItemHeading mb-1">{topicText}</p>
             <span
@@ -52,7 +53,8 @@ function NewsCard({
               style={{ color: fontColor, padding: 0 }}
             >
               <div>
-                {user} <ChatText /> {commentsCount}
+                {user} <Wechat className="mx-1" style={{ color: iconColor }} />{" "}
+                {commentsCount}
               </div>
             </span>
             <p className="newsBody">{news}</p>
