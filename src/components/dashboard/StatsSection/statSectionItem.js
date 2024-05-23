@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
+import CountUp from "react-countup";
 
 class StatSectionItem extends Component {
   render() {
@@ -10,7 +11,9 @@ class StatSectionItem extends Component {
         <div className="backgroundContainer">{amount}</div>
         <div className="foregroundContainer">
           <div className="d-flex align-items-center justify-content-center">
-            <div className=" countText">{amount}</div>
+            <div className=" countText">
+              <CountUp start={0} end={amount} />
+            </div>
             <div className=" descriptionText">{description}</div>
           </div>
         </div>
