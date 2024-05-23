@@ -17,10 +17,18 @@ class DashboardPage extends Component {
         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
           <WelcomeSection />
         </ScrollAnimation>
-        <ServiceSection />
-        <StatsSectionComponent />
-        <TestmonialsSection />
-        <ClientLogoSection />
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ServiceSection />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <StatsSectionComponent />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <TestmonialsSection />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ClientLogoSection />
+        </ScrollAnimation>
       </div>
     );
   }

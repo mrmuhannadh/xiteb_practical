@@ -25,22 +25,46 @@ function ClientLogoSection(props) {
       <div className="sliderBox">
         <Slider {...settings}>
           <div className="sliderImageContainer">
-            <img src={imageOne} className="sliderImageClient grayscale" />
+            <img
+              src={imageOne}
+              className="sliderImageClient grayscale"
+              alt="image"
+            />
           </div>
           <div className="sliderImageContainer">
-            <img src={imageTwo} className="sliderImageClient grayscale" />
+            <img
+              src={imageTwo}
+              className="sliderImageClient grayscale"
+              alt="image"
+            />
           </div>
           <div className="sliderImageContainer">
-            <img src={imageThree} className="sliderImageClient grayscale" />
+            <img
+              src={imageThree}
+              className="sliderImageClient grayscale"
+              alt="image"
+            />
           </div>
           <div className="sliderImageContainer">
-            <img src={imageFour} className="sliderImageClient grayscale" />
+            <img
+              src={imageFour}
+              className="sliderImageClient grayscale"
+              alt="image"
+            />
           </div>
           <div className="sliderImageContainer">
-            <img src={imageFive} className="sliderImageClient grayscale" />
+            <img
+              src={imageFive}
+              className="sliderImageClient grayscale"
+              alt="image"
+            />
           </div>
           <div className="sliderImageContainer">
-            <img src={imageSix} className="sliderImageClient grayscale" />
+            <img
+              src={imageSix}
+              className="sliderImageClient grayscale"
+              alt="image"
+            />
           </div>
         </Slider>
       </div>
