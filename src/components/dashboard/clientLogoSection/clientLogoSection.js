@@ -28,42 +28,42 @@ function ClientLogoSection(props) {
             <img
               src={imageOne}
               className="sliderImageClient grayscale"
-              alt="image"
+              alt="image1"
             />
           </div>
           <div className="sliderImageContainer">
             <img
               src={imageTwo}
               className="sliderImageClient grayscale"
-              alt="image"
+              alt="image2"
             />
           </div>
           <div className="sliderImageContainer">
             <img
               src={imageThree}
               className="sliderImageClient grayscale"
-              alt="image"
+              alt="image3"
             />
           </div>
           <div className="sliderImageContainer">
             <img
               src={imageFour}
               className="sliderImageClient grayscale"
-              alt="image"
+              alt="image4"
             />
           </div>
           <div className="sliderImageContainer">
             <img
               src={imageFive}
               className="sliderImageClient grayscale"
-              alt="image"
+              alt="image5"
             />
           </div>
           <div className="sliderImageContainer">
             <img
               src={imageSix}
               className="sliderImageClient grayscale"
-              alt="image"
+              alt="image6"
             />
           </div>
         </Slider>

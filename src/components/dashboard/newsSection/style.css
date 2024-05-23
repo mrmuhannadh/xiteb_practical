@@ -1,0 +1,56 @@
+.newsCardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #fff;
+  color: #333;
+}
+
+.heading{
+  margin-bottom: 0;
+}
+
+.subTopic{
+  color: #8b8b8b;
+  font-size: 12px;
+  padding-top: 0;
+}
+
+.newsSection{
+  padding-top: 10vh;
+}
+
+.newsBody{
+  padding-top: 7%;
+  font-size: 12px;
+}
+
+.sliderImageNews{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0 !important;
+}
+
+.topLeftDateBox {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  color: white;
+}
+
+.dateText{
+  position: absolute;
+  font-size: 30px;
+  padding-bottom: 10%;
+}
+
+.monthText{
+  display: flex;
+  font-size: 15px;
+  margin-top: 33px;
+}
