@@ -1,0 +1,130 @@
+.testMonContainer{
+  text-align: start;
+  padding: 5%;
+}
+
+.heading{
+  font-weight: bold;
+
+}
+
+.subHeading {
+  font-size: small;
+  color: #6e6e6e;
+  padding-top: 2%;
+}
+
+
+/* Chat Bubble */
+
+.talk-bubble-slider {
+	margin: 30px 25px;
+  display: inline-block;
+  position: relative;
+	min-width: 90%;
+	min-height: 25vh;
+	background-color: rgb(238, 238, 238);
+  color: #000;
+}
+
+.tri-right.border.btm-right-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: 30px;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: rgb(238, 238, 238) transparent transparent rgb(238, 238, 238);
+}
+.tri-right.btm-right-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: 38px;
+	bottom: -20px;
+	border: 12px solid;
+	border-color: rgb(238, 238, 238) transparent transparent transparent;
+}
+
+.talktext{
+  padding: 5px;
+  margin-left: 50px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.customShape {
+  width: 45px;
+  height: 50px;
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(169, 23, 5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.customShape::before {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid rgb(169, 23, 5);
+  border-right: 15px solid transparent;
+}
+
+.quoteMark {
+  content: "\201C";
+}
+
+.commenterSection{
+  padding-top: 2vh;
+  padding-right: 5vw;
+}
+
+.commenterName{
+  font-weight: bold;
+}
+
+.commenterPosition{
+  font-size: small;
+}
+
+.controllersDiv{
+  position: relative;
+  left: 5%;
+  bottom: 6vh;
+}
+
+.arrowDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 5vh;
+  border: solid 1px rgb(209, 209, 209);
+}
+
+
+/* Why choose us */
+
+.listItems{
+  padding-top: 5vh;
+}
+
+.customContainer{
+  padding:2vh 2vw;
+}

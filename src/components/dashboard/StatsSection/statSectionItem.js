@@ -7,7 +7,7 @@ class StatSectionItem extends Component {
     const { amount, description } = this.props;
 
     return (
-      <div className="col-md-3 d-flex align-items-center justify-content-start">
+      <div className="col-md-3 d-flex align-items-center justify-content-center">
         <div className="backgroundContainer">{amount}</div>
         <div className="foregroundContainer">
           <div className="d-flex align-items-center justify-content-center">

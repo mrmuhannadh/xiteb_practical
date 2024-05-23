@@ -1,0 +1,38 @@
+.sliderBox{
+  border: 3px solid rgb(189, 189, 189);
+  padding: 2% 10% 1% 10%;
+  margin-bottom: 5%;
+}
+
+.sliderImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderImageClient{
+  width: 100%;
+  max-height: 15vh;
+  object-fit: contain;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.grayscale:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+  animation: colorAnimation 0.25s linear forwards;
+}
+
+@keyframes colorAnimation {
+  from {
+    filter: grayscale(100%);
+  }
+  
+  to {
+    filter: grayscale(0%);
+  }
+}

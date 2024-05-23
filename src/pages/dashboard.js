@@ -5,6 +5,8 @@ import Slider from "../components/dashboard/headerAndSlider/slider";
 import ServiceSection from "../components/dashboard/ourServicesSection/serviceSection";
 import StatsSectionComponent from "../components/dashboard/StatsSection/statsSectionComponent";
 import ScrollAnimation from "react-animate-on-scroll";
+import TestmonialsSection from "../components/dashboard/testimonials/testimonialsSection";
+import ClientLogoSection from "../components/dashboard/clientLogoSection/clientLogoSection";
 
 class DashboardPage extends Component {
   render() {
@@ -16,8 +18,9 @@ class DashboardPage extends Component {
           <WelcomeSection />
         </ScrollAnimation>
         <ServiceSection />
-
         <StatsSectionComponent />
+        <TestmonialsSection />
+        <ClientLogoSection />
       </div>
     );
   }

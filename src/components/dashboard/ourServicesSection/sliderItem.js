@@ -16,7 +16,7 @@ class SliderItem extends Component {
               <span className="sliderItemHeading">{topicText}</span>
               <p className="sliderItemBody">{bodyText}</p>
               <div className="d-flex align-items-center readMoreContainer">
-                <ArrowRightCircleFill />{" "}
+                <ArrowRightCircleFill />
                 <span className="px-2 readMoreText">Read More</span>
               </div>
             </Card.Text>
