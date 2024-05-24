@@ -3,8 +3,8 @@ import "./welcomeStyle.css";
 
 function RightTriRecShape() {
   return (
-    <div className="talk-bubble tri-right left-top">
-      <div className="talktext text-center justify-content-center">
+    <div className="tri-right left-top">
+      <div className="text-center justify-content-center p-3">
         <span className="clientAmount">15,350 +</span>
         <br />
         <span>Clients Worldwide</span>

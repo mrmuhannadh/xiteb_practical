@@ -47,7 +47,7 @@
 .sliderImageC {
   border-radius: 0 !important;
   object-fit: cover;
-  height: 200px;
+  height: 100%;
   width: 100%;
 }
 

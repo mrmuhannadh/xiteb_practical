@@ -9,8 +9,8 @@ import TriangleShape from "./triangleBottomLeftShape";
 
 function WelcomeSection() {
   return (
-    <div className="row welcomeSectionMainBox w-100">
-      <div className="col-md-6 imageSection flex">
+    <div className="row welcomeSectionMainBox w-100 h-100">
+      <div className="col-md-6 col-sm-12 imageSection px-4">
         <div className="imageOneDiv">
           <img src={imageOne} className="imageOne" alt="imageOne" />
         </div>
@@ -23,10 +23,12 @@ function WelcomeSection() {
             <TriangleShape />
           </div>
         </div>
-        <RightTriRecShape className="triRecShape" />
+        <div className="triangleRecShapeContainer">
+          <RightTriRecShape className="triRecShape" />
+        </div>
       </div>
 
-      <div className="col-md-6 textSection">
+      <div className="col-md-6 col-sm-12 textSection">
         <div className="parallelogramContainer">
           <Parallelogram className="parallelogramShape" />
         </div>
