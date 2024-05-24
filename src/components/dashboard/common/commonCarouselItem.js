@@ -13,7 +13,7 @@ function CommonCarouselItem({ image }) {
               <span className="px-2">LOGISTIC</span>
             </div>
           </h5>
-          <div className="subHeading">
+          <div className="subHeadingOne">
             Best Shipping
             <span className="subHeadingHighlight">
               <br />
